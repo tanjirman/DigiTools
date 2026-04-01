@@ -5,7 +5,8 @@ const steps = [
     id: "01",
     icon: <FiUser size={28} />,
     title: "Create Account",
-    description: "Sign up for free in seconds. No credit card required to get started.",
+    description:
+      "Sign up for free in seconds. No credit card required to get started.",
   },
   {
     id: "02",

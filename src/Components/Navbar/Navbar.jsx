@@ -1,10 +1,10 @@
 import { FiShoppingCart } from "react-icons/fi";
 
- const NavBar = () => {
+const NavBar = () => {
   return (
     <div className="navbar container border-b border-gray-200 px-30 mx-auto flex items-center justify-between">
       <div className="navbar-start">
-        <div className="flex items-center gap-1 font-bold text-xl bg-clip-text text-transparent bg-linear-to-r from-[#4F39F6] to-purple-500">
+        <div className="flex items-center gap-1 font-bold text-2xl bg-clip-text text-transparent bg-linear-to-r from-[#4F39F6] to-purple-500">
           DigiTools
         </div>
       </div>
@@ -30,9 +30,10 @@ import { FiShoppingCart } from "react-icons/fi";
       <div className="navbar-end gap-5 ">
         <FiShoppingCart />
         <a>Login</a>
-        <a className="btn bg-linear-to-r from-[#4F39F6] to-purple-500 rounded-full text-white">Get started</a>
+        <a className="btn bg-linear-to-r bg-[#4F39F6] to-purple-500 rounded-full text-white">
+          Get started
+        </a>
       </div>
-      
     </div>
   );
 };

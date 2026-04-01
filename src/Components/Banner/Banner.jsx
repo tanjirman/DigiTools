@@ -6,12 +6,12 @@ const Banner = () => {
   return (
     <section className="bg-base-100 py-16 mx-auto ">
       <div className="max-w-7xl mx-auto px-10 md:px-38 grid md:grid-cols-2 gap-10 items-center">
-        
         {/* LEFT CONTENT */}
         <div>
           {/* Badge */}
           <span className=" inline-block flex-wrap mb-4 px-4 py-1 text-sm rounded-full bg-purple-100 text-purple-600">
-            <FaRegCircleDot />New: AI-Powered Tools Available
+            <FaRegCircleDot />
+            New: AI-Powered Tools Available
           </span>
 
           {/* Heading */}
@@ -23,8 +23,9 @@ const Banner = () => {
           {/* Description */}
           <p className="text-gray-500 text-sm mb-6">
             Access premium AI tools, design assets, templates, and productivity
-software—all in one place. Start creating faster today.<br/>
-Explore Products
+            software—all in one place. Start creating faster today.
+            <br />
+            Explore Products
           </p>
 
           {/* Buttons */}
@@ -47,13 +48,11 @@ Explore Products
             className="rounded-xl shadow-lg w-88"
           />
         </div>
-
       </div>
 
       {/* BOTTOM STATS SECTION */}
       <div className="w-full mt-16 bg-linear-to-r from-purple-600 to-indigo-600 text-white py-15">
         <div className="max-w-5xl mx-auto grid grid-cols-3 text-center">
-          
           <div>
             <h2 className="text-3xl font-bold">50K+</h2>
             <p className="text-sm opacity-80">Active Users</p>
@@ -68,7 +67,6 @@ Explore Products
             <h2 className="text-3xl font-bold">4.9</h2>
             <p className="text-sm opacity-80">Rating</p>
           </div>
-
         </div>
       </div>
     </section>
