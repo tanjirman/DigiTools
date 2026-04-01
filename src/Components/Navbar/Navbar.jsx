@@ -1,6 +1,6 @@
 import { FiShoppingCart } from "react-icons/fi";
 
-const NavBar = () => {
+ const NavBar = () => {
   return (
     <div className="navbar container border-b border-gray-200 px-30 mx-auto flex items-center justify-between">
       <div className="navbar-start">
