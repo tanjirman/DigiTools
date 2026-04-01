@@ -10,6 +10,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef7266dc-ed7a-42b6-ace9-bb1fe6cd47d6/deploy-status)](https://app.netlify.com/projects/digitools-8e15db/deploys)
 
 ---
 
@@ -44,6 +45,9 @@ Clicking Proceed to Checkout clears the entire cart, switches back to the Produc
 ## 🌐 Live Demo
 
 [https://tanjirman.github.io/DigiTools/](https://tanjirman.github.io/DigiTools/)
+
+## Netlify link
+https://digitools-8e15db.netlify.app/
 
 ---
 
