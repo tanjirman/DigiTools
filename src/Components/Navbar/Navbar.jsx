@@ -1,7 +1,8 @@
 import { FiShoppingCart } from "react-icons/fi";
 
-const NavBar = () => {
+const NavBar = ({ cart }) => {
   return (
+   <div className="sticky top-0 z-50 bg-white shadow-sm">
     <div className="navbar container border-b border-gray-200 px-30 mx-auto flex items-center justify-between">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-2xl bg-clip-text text-transparent bg-linear-to-r from-[#4F39F6] to-purple-500">
@@ -28,12 +29,22 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-5 ">
-        <FiShoppingCart />
+       <div className="indicator">
+          <FiShoppingCart size={20} />
+          {cart.length > 0 && (
+            <span className="badge badge-xs badge-primary indicator-item">
+              {cart.length}
+            </span>
+          )}
+        </div>
+
         <a>Login</a>
         <a className="btn bg-linear-to-r bg-[#4F39F6] to-purple-500 rounded-full text-white">
           Get started
         </a>
       </div>
+    </div>
+
     </div>
   );
 };

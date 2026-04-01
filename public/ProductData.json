@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes in minutes\nOptimized for ATS systems",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Social Media AI Kit",
+    "description": "Generate posts, captions, and hashtags\nBoost engagement instantly",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Auto captions", "Hashtag generator", "Post scheduler"],
+    "icon": "📱"
+  },
+  {
+    "id": 3,
+    "name": "Logo Generator Pro",
+    "description": "Design logos using AI tools\nDownload high-quality files",
+    "price": 19,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["HD logo export", "Custom colors", "Brand kit"],
+    "icon": "🎨"
+  },
+  {
+    "id": 4,
+    "name": "Website Builder AI",
+    "description": "Build websites without coding\nDrag and drop interface",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Responsive design", "SEO tools", "Custom domains"],
+    "icon": "🌐"
+  },
+  {
+    "id": 5,
+    "name": "Email Marketing Suite",
+    "description": "Create and send campaigns بسهولة\nTrack performance analytics",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Email templates", "Automation", "Analytics dashboard"],
+    "icon": "✉️"
+  },
+  {
+    "id": 6,
+    "name": "AI Video Editor",
+    "description": "Edit videos automatically with AI\nAdd effects and subtitles",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "popular",
+    "features": ["Auto subtitles", "Transitions", "HD export"],
+    "icon": "🎬"
+  },
+  {
+    "id": 7,
+    "name": "Content Writer AI",
+    "description": "Generate blogs and articles instantly\nSEO optimized content",
+    "price": 10,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Blog generation", "SEO keywords", "Plagiarism free"],
+    "icon": "✍️"
+  },
+  {
+    "id": 8,
+    "name": "Design Assets Pack",
+    "description": "Access premium icons and templates\nPerfect for UI/UX designers",
+    "price": 29,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["5000+ icons", "UI kits", "Figma files"],
+    "icon": "📦"
+  }
+]

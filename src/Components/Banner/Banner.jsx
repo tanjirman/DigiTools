@@ -9,7 +9,7 @@ const Banner = () => {
         {/* LEFT CONTENT */}
         <div>
           {/* Badge */}
-          <span className=" inline-block flex-wrap mb-4 px-4 py-1 text-sm rounded-full bg-purple-100 text-purple-600">
+          <span className=" inline-flex items-center gap-2 mb-4 px-4 py-1 text-sm rounded-full bg-purple-100 text-purple-600">
             <FaRegCircleDot />
             New: AI-Powered Tools Available
           </span>

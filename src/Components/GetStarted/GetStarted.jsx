@@ -36,7 +36,7 @@ export default function GetStarted() {
       </div>
 
       {/* Cards */}
-      <div className="card-body flex flex-col md:flex-row gap-6 justify-center max-w-4xl mx-auto items-stretch h-full">
+      <div className="flex flex-col md:flex-row gap-6 justify-center max-w-4xl mx-auto items-center md:items-stretch h-full ">
         {steps.map((step) => (
           <div
             key={step.id}
