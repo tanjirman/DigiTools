@@ -76,7 +76,7 @@ const Products = ({ cart, setCart,  activeTab, setActiveTab  }) => {
 
         {/* Products Grid */}
         {activeTab === "model" && (
-          <div className="grid md:grid-cols-3 gap-8 mt-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             {products.map((product) => (
               <ProductsCard
                 key={product.id}
