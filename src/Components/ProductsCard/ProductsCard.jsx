@@ -59,7 +59,7 @@ const ProductsCard = ({ product, onAddToCart, isInCart }) => {
         className={`w-full py-2 rounded-full text-white font-medium transition
           ${isInCart
             ? "bg-gray-300 cursor-not-allowed"
-            : "bg-gradient-to-r from-purple-500 to-indigo-500 hover:opacity-90"
+            : "bg-linear-to-r from-purple-500 to-indigo-500 hover:opacity-90"
           }`}
       >
         {isInCart ? "Added to Cart ✓" : "Buy Now"}

@@ -7,6 +7,7 @@ import NavBar from './Components/Navbar/Navbar'
 import Pricing from './Components/Pricing/Pricing'
 import Products from './Components/Products/Products'
 import { ToastContainer } from 'react-toastify'
+import Workflow from './Components/Workflow/Workflow'
 
 function App() {
   
@@ -30,6 +31,8 @@ function App() {
       <GetStarted/>
 
       <Pricing/>
+
+      <Workflow/>
 
       <Footer/>
     </>
